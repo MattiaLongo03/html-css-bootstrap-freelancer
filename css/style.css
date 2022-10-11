@@ -1,0 +1,14 @@
+header{
+    background-color: #2C3E50;
+    color: white;
+}
+
+.div_container{
+    text-align: center;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.div_container img{
+    width: 200px;
+}
