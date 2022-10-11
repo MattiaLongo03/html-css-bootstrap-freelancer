@@ -1,8 +1,3 @@
-header{
-    background-color: #2C3E50;
-    color: white;
-}
-
 .div_container{
     text-align: center;
     background-color: #1ABC9C;
@@ -11,4 +6,22 @@ header{
 
 .div_container img{
     width: 200px;
+}
+
+main{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-sm{
+    margin-top: 20px;
+    height: 300px;
+    background-color: #BA4B63;
+    border-radius: 20px;
+}
+
+.container-fluid{
+    margin-top: 50px;
+    color: white;
+    background-color: #1ABC9C;
 }
