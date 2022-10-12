@@ -16,4 +16,15 @@ body{
     height: 100px;
 }
 
+.bl_card{
+    border-radius: 2rem;
+    overflow: hidden;
+}
 
+.about{
+    background-color: #1ABC9C;
+}
+
+.btn-send{
+    background-color: #1ABC9C;
+}
