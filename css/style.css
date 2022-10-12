@@ -11,9 +11,9 @@ body{
     background-color: #1ABC9C;
 }
 
-.img-profile{
-    display: inline-block;
-    height: 100px;
+.barra{
+    width: 50px;
+    height: 5px;
 }
 
 .bl_card{
@@ -22,9 +22,18 @@ body{
 }
 
 .about{
+    margin-top: 30px;
     background-color: #1ABC9C;
 }
 
-.btn-send{
+.btn{
     background-color: #1ABC9C;
+}
+
+.portfolio{
+    margin-top: 30px;
+}
+
+.contact{
+    margin-top: 30px;
 }

@@ -26,32 +26,45 @@
     <header class="header-page text-white">
         <nav class="nav-top text-uppercase">
            <div class="container d-flex justify-content-between align-items-center h-100">
-            <div class="logo">Start Bootstrap</div>
+            <div class="logo fw-bold">Start Bootstrap</div>
 
             <div class="btn-hambuerg d-sm-none">
                 <i class="fa-solid fa-list"></i>
             </div>
 
             <ul class="nav-list list-inline d-none d-sm-flex mb-0">
-                <li class="ps-4"><a href="!#">Portfolio</a></li>
-                <li class="ps-4"><a href="!#">About</a></li>
-                <li class="ps-4"><a href="!#">Contact</a></li>
+                <li class="ps-4"><a class="text-decoration-none fw-bold text-white" href="#!">Portfolio</a></li>
+                <li class="ps-4"><a class="text-decoration-none fw-bold text-white" href="#!">About</a></li>
+                <li class="ps-4"><a class="text-decoration-none fw-bold text-white" href="#!">Contact</a></li>
             </ul>
            </div>
         </nav>
 
-        <section class="container py-5 text-center text-uppercase">
+        <section class="container py-4 text-center text-uppercase">
             <img class="col-3 mb-3" src="img/avatar.svg" alt="">
-            <h1>Start bootstrap</h1>
-            <div class="col-4 star"></div>
-            <p>Lorem ipsum dolor sit amet consectetur </p>
+            <h1 class="fw-bold">Start bootstrap</h1>
+            <div class="star mb-4 d-flex align-items-center justify-content-center">
+                <div class="barra me-2 rounded bg-white"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="barra ms-2 rounded bg-white"></div>
+            </div>
+            <div class="d-inline-flex fw-bold">
+                <p>Graphic artist -</p>
+                <p>Web designer -</p>
+                <p>illustrator</p>
+            </div>
+
         </section>
     </header>
 
     <section class="portfolio text-center py-4">
         <div class="container">
-            <h2>Portfolio</h2>
-            <div class="col-4 star"></div>
+            <h2 class="fw-bold text-uppercase">Portfolio</h2>
+            <div class="star mb-4 d-flex align-items-center justify-content-center">
+                <div class="barra me-2 rounded bg-dark"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="barra ms-2 rounded bg-dark"></div>
+            </div>
             
             <div class="overflow-hidden">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -62,27 +75,27 @@
                     </div>
                     <div class="col">
                         <div class="bl_card">
-                            
+                            <img class="img-fluid" src="img/cake.png" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="bl_card">
-                            
+                            <img class="img-fluid" src="img/circus.png" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="bl_card">
-                            
+                            <img class="img-fluid" src="img/game.png" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="bl_card">
-                            
+                            <img class="img-fluid" src="img/safe.png" alt="">
                         </div>
                     </div>
                     <div class="col">
                         <div class="bl_card">
-                            
+                            <img class="img-fluid" src="img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -93,8 +106,12 @@
     <section class="about py-4">
         <div class="container text-center text-white">
             <div class="col-10 mx-auto">
-                <h2>About</h2>
-                <div class="col-4 star"></div>
+                <h2 class="text-center text-uppercase fw-bold">About</h2>
+                <div class="star mb-4 d-flex align-items-center justify-content-center">
+                    <div class="barra me-2 rounded bg-white"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="barra ms-2 rounded bg-white"></div>
+                </div>
 
                 <div class="overflow-hidden">
                     <div class="row text-start g-3">
@@ -114,17 +131,26 @@
     <section class="contact">
         <div class="container">
             <div class="col-10 mx-auto">
-                <h2 class="text-center">Contact me</h2>
-                <div class="col-4 star"></div>
+                <h2 class="text-center fw-bold text-uppercase">Contact me</h2>
+                <div class="star mb-4 d-flex align-items-center justify-content-center">
+                    <div class="barra me-2 rounded bg-dark"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="barra ms-2 rounded bg-dark"></div>
+                </div>
             
                 <form action="" method="post">
-                    <button class="btn-send btn-primary">Invia</button>
+                    <label for="Name">Nome</label><br>
+                    <input type="text"><br>
+                    <label for="email">Indirizzo Email</label><br>
+                    <input type="email"><br>
+                    <label for="phone-number">Numero di telefono</label><br>
+                    <input type="text"><br>
+                    <label for="message"></label><br>
+                    <textarea name="Message" id="" cols="30" rows="10">Messaggio</textarea><br>
+                    <button class="btn btn-outline-light">Invia</button>
                 </form>
             </div>
         </div>
-
-
-
     </section>
 
 
