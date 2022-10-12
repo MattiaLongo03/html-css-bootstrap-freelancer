@@ -1,27 +1,19 @@
-.div_container{
-    text-align: center;
-    background-color: #1ABC9C;
-    color: white;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.div_container img{
-    width: 200px;
+.nav-top{
+    background-color: #2C3E50;
+    height: 3rem;
 }
 
-main{
-    margin-top: 20px;
-    text-align: center;
-}
-
-.container-sm{
-    margin-top: 20px;
-    height: 300px;
-    background-color: #BA4B63;
-    border-radius: 20px;
-}
-
-.container-fluid{
-    margin-top: 50px;
-    color: white;
+.header-page{
     background-color: #1ABC9C;
 }
+
+.img-profile{
+    display: inline-block;
+    height: 100px;
+}
+
+
